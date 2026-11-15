@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" font-family="sans-serif" font-size="14">
+<rect width="1000" height="760" fill="#0b1026"/>
+<text x="500.0" y="30" fill="white" font-size="20" text-anchor="middle">Handover: the spacecraft passes from one DSN site to the next as Earth rotates</text>
+<text x="20" y="62" fill="white" font-size="15" font-weight="bold">A: t = 11 h, Canberra → Madrid</text>
+<circle cx="135" cy="190" r="62" fill="#16408a" stroke="#4f8fe0" stroke-width="2"/>
+<circle cx="135" cy="190" r="34.1" fill="none" stroke="#2a62b8" stroke-width="1" stroke-dasharray="3 5"/>
+<circle cx="135" cy="190" r="4" fill="white"/>
+<circle cx="290" cy="190" r="9" fill="#f2c94c"/>
+<text x="290" y="174" fill="#f2c94c" text-anchor="middle" font-size="12">spacecraft</text>
+<text x="290" y="218" fill="#f2c94c" text-anchor="middle" font-size="12">far away</text>
+<circle cx="74.1" cy="178.3" r="8" fill="#ffb347" fill-opacity="0.35" stroke="white" stroke-width="1.5"/>
+<text x="50.6" y="177.7" fill="#ffb347" fill-opacity="0.35" text-anchor="middle" font-size="12">Goldstone</text>
+<line x1="147.6" y1="250.7" x2="280" y2="190" stroke="#6ee7a8" stroke-width="2.5" stroke-dasharray="7 4"/>
+<circle cx="147.6" cy="250.7" r="8" fill="#6ee7a8" fill-opacity="1.0" stroke="white" stroke-width="1.5"/>
+<text x="152.5" y="278.2" fill="#6ee7a8" fill-opacity="1.0" text-anchor="middle" font-size="12">Madrid</text>
+<line x1="151.0" y1="130.1" x2="280" y2="190" stroke="#9ecbff" stroke-width="2.5" stroke-dasharray="7 4"/>
+<circle cx="151.0" cy="130.1" r="8" fill="#9ecbff" fill-opacity="1.0" stroke="white" stroke-width="1.5"/>
+<text x="157.3" y="110.9" fill="#9ecbff" fill-opacity="1.0" text-anchor="middle" font-size="12">Canberra</text>
+<text x="20" y="314" fill="#aab4d4" font-size="12">Dashed line = site can see the spacecraft</text>
+<text x="355" y="62" fill="white" font-size="15" font-weight="bold">B: t = 20 h, Madrid → Goldstone</text>
+<circle cx="470" cy="190" r="62" fill="#16408a" stroke="#4f8fe0" stroke-width="2"/>
+<circle cx="470" cy="190" r="34.1" fill="none" stroke="#2a62b8" stroke-width="1" stroke-dasharray="3 5"/>
+<circle cx="470" cy="190" r="4" fill="white"/>
+<circle cx="625" cy="190" r="9" fill="#f2c94c"/>
+<text x="625" y="174" fill="#f2c94c" text-anchor="middle" font-size="12">spacecraft</text>
+<text x="625" y="218" fill="#f2c94c" text-anchor="middle" font-size="12">far away</text>
+<line x1="504.8" y1="241.3" x2="615" y2="190" stroke="#ffb347" stroke-width="2.5" stroke-dasharray="7 4"/>
+<circle cx="504.8" cy="241.3" r="8" fill="#ffb347" fill-opacity="1.0" stroke="white" stroke-width="1.5"/>
+<text x="518.2" y="265.2" fill="#ffb347" fill-opacity="1.0" text-anchor="middle" font-size="12">Goldstone</text>
+<line x1="504.0" y1="138.2" x2="615" y2="190" stroke="#6ee7a8" stroke-width="2.5" stroke-dasharray="7 4"/>
+<circle cx="504.0" cy="138.2" r="8" fill="#6ee7a8" fill-opacity="1.0" stroke="white" stroke-width="1.5"/>
+<text x="517.2" y="122.1" fill="#6ee7a8" fill-opacity="1.0" text-anchor="middle" font-size="12">Madrid</text>
+<circle cx="416.3" cy="221.0" r="8" fill="#9ecbff" fill-opacity="0.35" stroke="white" stroke-width="1.5"/>
+<text x="395.5" y="237.0" fill="#9ecbff" fill-opacity="0.35" text-anchor="middle" font-size="12">Canberra</text>
+<text x="355" y="314" fill="#aab4d4" font-size="12">Dashed line = site can see the spacecraft</text>
+<text x="690" y="62" fill="white" font-size="15" font-weight="bold">C: t = 27 h, Goldstone → Canberra</text>
+<circle cx="805" cy="190" r="62" fill="#16408a" stroke="#4f8fe0" stroke-width="2"/>
+<circle cx="805" cy="190" r="34.1" fill="none" stroke="#2a62b8" stroke-width="1" stroke-dasharray="3 5"/>
+<circle cx="805" cy="190" r="4" fill="white"/>
+<circle cx="960" cy="190" r="9" fill="#f2c94c"/>
+<text x="960" y="174" fill="#f2c94c" text-anchor="middle" font-size="12">spacecraft</text>
+<text x="960" y="218" fill="#f2c94c" text-anchor="middle" font-size="12">far away</text>
+<line x1="845.6" y1="143.1" x2="950" y2="190" stroke="#ffb347" stroke-width="2.5" stroke-dasharray="7 4"/>
+<circle cx="845.6" cy="143.1" r="8" fill="#ffb347" fill-opacity="1.0" stroke="white" stroke-width="1.5"/>
+<text x="861.3" y="129.0" fill="#ffb347" fill-opacity="1.0" text-anchor="middle" font-size="12">Goldstone</text>
+<circle cx="746.1" cy="170.6" r="8" fill="#6ee7a8" fill-opacity="0.35" stroke="white" stroke-width="1.5"/>
+<text x="723.3" y="167.1" fill="#6ee7a8" fill-opacity="0.35" text-anchor="middle" font-size="12">Madrid</text>
+<line x1="848.8" y1="233.8" x2="950" y2="190" stroke="#9ecbff" stroke-width="2.5" stroke-dasharray="7 4"/>
+<circle cx="848.8" cy="233.8" r="8" fill="#9ecbff" fill-opacity="1.0" stroke="white" stroke-width="1.5"/>
+<text x="865.8" y="254.8" fill="#9ecbff" fill-opacity="1.0" text-anchor="middle" font-size="12">Canberra</text>
+<text x="690" y="314" fill="#aab4d4" font-size="12">Dashed line = site can see the spacecraft</text>
+<text x="40" y="340" fill="white" font-size="16" font-weight="bold">Which site can see the spacecraft (simplified, 36 hours)</text>
+<text x="138" y="400" fill="#9ecbff" text-anchor="end">Canberra</text>
+<line x1="150" y1="395" x2="960" y2="395" stroke="#223" stroke-width="1"/>
+<rect x="150.0" y="379" width="270.0" height="32" rx="4" fill="#9ecbff" fill-opacity="0.75"/>
+<text x="285.0" y="400" fill="#0b1026" text-anchor="middle" font-size="12" font-weight="bold">in view</text>
+<rect x="690.0" y="379" width="270.0" height="32" rx="4" fill="#9ecbff" fill-opacity="0.75"/>
+<text x="825.0" y="400" fill="#0b1026" text-anchor="middle" font-size="12" font-weight="bold">in view</text>
+<text x="138" y="460" fill="#6ee7a8" text-anchor="end">Madrid</text>
+<line x1="150" y1="455" x2="960" y2="455" stroke="#223" stroke-width="1"/>
+<rect x="379.9" y="439" width="270.0" height="32" rx="4" fill="#6ee7a8" fill-opacity="0.75"/>
+<text x="514.9" y="460" fill="#0b1026" text-anchor="middle" font-size="12" font-weight="bold">in view</text>
+<rect x="919.9" y="439" width="40.1" height="32" rx="4" fill="#6ee7a8" fill-opacity="0.75"/>
+<text x="138" y="520" fill="#ffb347" text-anchor="end">Goldstone</text>
+<line x1="150" y1="515" x2="960" y2="515" stroke="#223" stroke-width="1"/>
+<rect x="548.9" y="499" width="270.0" height="32" rx="4" fill="#ffb347" fill-opacity="0.75"/>
+<text x="683.8" y="520" fill="#0b1026" text-anchor="middle" font-size="12" font-weight="bold">in view</text>
+<line x1="397.5" y1="374" x2="397.5" y2="545" stroke="white" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="397.5" y="368" fill="white" text-anchor="middle" font-weight="bold">A</text>
+<line x1="600.0" y1="374" x2="600.0" y2="545" stroke="white" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="600.0" y="368" fill="white" text-anchor="middle" font-weight="bold">B</text>
+<line x1="757.5" y1="374" x2="757.5" y2="545" stroke="white" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="757.5" y="368" fill="white" text-anchor="middle" font-weight="bold">C</text>
+<line x1="150.0" y1="560" x2="150.0" y2="566" stroke="#aab4d4"/>
+<text x="150.0" y="583" fill="#aab4d4" text-anchor="middle" font-size="12">0 h</text>
+<line x1="285.0" y1="560" x2="285.0" y2="566" stroke="#aab4d4"/>
+<text x="285.0" y="583" fill="#aab4d4" text-anchor="middle" font-size="12">6 h</text>
+<line x1="420.0" y1="560" x2="420.0" y2="566" stroke="#aab4d4"/>
+<text x="420.0" y="583" fill="#aab4d4" text-anchor="middle" font-size="12">12 h</text>
+<line x1="555.0" y1="560" x2="555.0" y2="566" stroke="#aab4d4"/>
+<text x="555.0" y="583" fill="#aab4d4" text-anchor="middle" font-size="12">18 h</text>
+<line x1="690.0" y1="560" x2="690.0" y2="566" stroke="#aab4d4"/>
+<text x="690.0" y="583" fill="#aab4d4" text-anchor="middle" font-size="12">24 h</text>
+<line x1="825.0" y1="560" x2="825.0" y2="566" stroke="#aab4d4"/>
+<text x="825.0" y="583" fill="#aab4d4" text-anchor="middle" font-size="12">30 h</text>
+<line x1="960.0" y1="560" x2="960.0" y2="566" stroke="#aab4d4"/>
+<text x="960.0" y="583" fill="#aab4d4" text-anchor="middle" font-size="12">36 h</text>
+<text x="555.0" y="606" fill="#aab4d4" text-anchor="middle" font-size="12">hours after the spacecraft rises at Canberra</text>
+<text x="40" y="650" fill="#f2c94c" font-size="13">Windows overlap, so the next site can lock on before the current one loses the spacecraft.</text>
+<text x="40" y="674" fill="#f2c94c" font-size="13">Simplified model: spacecraft on the celestial equator, flat horizon (0° elevation), steady 15°/hour rotation.</text>
+<text x="40" y="698" fill="#f2c94c" font-size="13">Real passes are shorter and differ with the spacecraft's position in the sky, and the station order repeats every day.</text>
+</svg>

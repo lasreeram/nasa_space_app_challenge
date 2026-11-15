@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" font-family="sans-serif" font-size="14">
+<rect width="960" height="620" fill="#0b1026"/>
+<text x="480.0" y="30" fill="white" font-size="20" text-anchor="middle">DSN sites around the globe (view from above the North Pole)</text>
+<circle cx="300" cy="340" r="150" fill="#16408a" stroke="#4f8fe0" stroke-width="2"/>
+<circle cx="300" cy="340" r="82.5" fill="none" stroke="#2a62b8" stroke-width="1" stroke-dasharray="3 5"/>
+<circle cx="300" cy="340" r="4" fill="white"/>
+<text x="300" y="362" fill="white" text-anchor="middle">North Pole</text>
+<text x="300" y="134" fill="#ccc" text-anchor="middle">0° longitude (Greenwich) at top</text>
+<text x="160" y="345" fill="#ccc">90° E</text>
+<text x="440" y="345" fill="#ccc" text-anchor="end">90° W</text>
+<path d="M205.2,497.7 A184,184 0 0 0 464.1,423.2" fill="none" stroke="#f2c94c" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="357.0" y="543.0" fill="#f2c94c" text-anchor="middle" font-weight="bold">94°</text>
+<path d="M464.1,423.2 A184,184 0 0 0 313.6,156.5" fill="none" stroke="#f2c94c" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="479.4" y="243.8" fill="#f2c94c" text-anchor="middle" font-weight="bold">113°</text>
+<path d="M313.6,156.5 A184,184 0 0 0 205.2,497.7" fill="none" stroke="#f2c94c" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="103.7" y="282.6" fill="#f2c94c" text-anchor="middle" font-weight="bold">153°</text>
+<line x1="300" y1="340" x2="433.8" y2="407.9" stroke="#ffb347" stroke-width="1.5" stroke-opacity="0.6"/>
+<circle cx="433.8" cy="407.9" r="9" fill="#ffb347" stroke="white" stroke-width="2"/>
+<text x="399.9" y="395.7" fill="white" text-anchor="middle" font-size="13">Goldstone</text>
+<line x1="300" y1="340" x2="311.1" y2="190.4" stroke="#6ee7a8" stroke-width="1.5" stroke-opacity="0.6"/>
+<circle cx="311.1" cy="190.4" r="9" fill="#6ee7a8" stroke="white" stroke-width="2"/>
+<text x="308.3" y="233.3" fill="white" text-anchor="middle" font-size="13">Madrid</text>
+<line x1="300" y1="340" x2="222.7" y2="468.6" stroke="#9ecbff" stroke-width="1.5" stroke-opacity="0.6"/>
+<circle cx="222.7" cy="468.6" r="9" fill="#9ecbff" stroke="white" stroke-width="2"/>
+<text x="242.3" y="441.0" fill="white" text-anchor="middle" font-size="13">Canberra</text>
+<text x="590" y="120" fill="white" font-size="17" font-weight="bold">Approximate station longitudes</text>
+<circle cx="598" cy="150" r="8" fill="#9ecbff"/>
+<text x="616" y="155" fill="white">Canberra (Australia)</text>
+<text x="616" y="175" fill="#aab4d4" font-size="13">149.0° E; 94° east to Goldstone</text>
+<circle cx="598" cy="206" r="8" fill="#ffb347"/>
+<text x="616" y="211" fill="white">Goldstone (California, USA)</text>
+<text x="616" y="231" fill="#aab4d4" font-size="13">116.9° W; 113° east to Madrid</text>
+<circle cx="598" cy="262" r="8" fill="#6ee7a8"/>
+<text x="616" y="267" fill="white">Madrid (Spain)</text>
+<text x="616" y="287" fill="#aab4d4" font-size="13">4.2° W; 153° east to Canberra</text>
+<text x="590" y="333" fill="#f2c94c" font-size="14">NASA: sites are "approximately 120° apart".</text>
+<text x="590" y="355" fill="#f2c94c" font-size="14">The real gaps are about 94° to 153°, and</text>
+<text x="590" y="377" fill="#f2c94c" font-size="14">always add up to 360°.</text>
+<text x="590" y="413" fill="#aab4d4" font-size="12">Longitudes are approximate (not from NASA's pages).</text>
+</svg>
