@@ -1,0 +1,37 @@
+{
+  "id": "panel_002",
+  "revision": 1,
+  "status": "approved by user (good; added to the book). Lettering 'OUT OF LOCK' still to be added in layout",
+  "beat": "In the Mission Operations center, Alice sees 'OUT OF LOCK' on the screen.",
+  "lettering_later": "The 'OUT OF LOCK' text on the screen is added in layout code; the image model is not asked to render text.",
+  "characters": ["alice_bowman"],
+  "canon_files": ["canon/alice_bowman.json"],
+  "composition": {
+    "description": "Alice seated in side view in front of a computer; mission operations center around her.",
+    "width": 768,
+    "height": 1344
+  },
+  "prompt_parts": {
+    "style_lead": "hand-drawn pencil sketch of",
+    "canon_text": "alice_bowman, the mission operations manager, a woman with a dark shoulder-length bob, centre parting, calm face, wearing a long-sleeve pullover with a buttoned collar, belt, straight trousers and flat shoes",
+    "panel_prompt": "side view, seated at a desk in front of a computer monitor with a glowing screen, looking at the screen, in a mission operations center with rows of consoles and monitors in the background",
+    "style_block": "soft black and white graphite hatching"
+  },
+  "prompt": "hand-drawn pencil sketch of alice_bowman, the mission operations manager, a woman with a dark shoulder-length bob, centre parting, calm face, wearing a long-sleeve pullover with a buttoned collar, belt, straight trousers and flat shoes, side view, seated at a desk in front of a computer monitor with a glowing screen, looking at the screen, in a mission operations center with rows of consoles and monitors in the background, soft black and white graphite hatching",
+  "negative": "photo, photorealistic, 3d render, glossy, cgi, color, colorful, text, watermark, blurry, extra limbs, extra people, crowd",
+  "model": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "lora": "alice_bowman.safetensors",
+    "lora_strength": 0.8
+  },
+  "sampler": {
+    "name": "euler",
+    "scheduler": "normal",
+    "steps": 25,
+    "cfg": 7.0,
+    "denoise": 1.0
+  },
+  "seeds": [2041006239, 2419634501],
+  "grayscale": true,
+  "kaggle_kernel": "sreeramla/panel-002-gen"
+}

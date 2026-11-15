@@ -1,0 +1,46 @@
+{
+  "id": "new_horizons_craft",
+  "type": "craft",
+  "display_name": "New Horizons spacecraft (NHS)",
+  "role": "The spacecraft that flew by Pluto on July 14, 2015",
+  "real_person": false,
+  "dramatised": false,
+  "trigger": "new_horizon_craft",
+  "avoid_words": [],
+  "trigger_notes": "Singular 'new_horizon_craft' as trained; every training caption starts with 'pencil drawing of new_horizon_craft'.",
+  "canon_text": "new_horizon_craft, a space probe, shallow dish antenna on top on a tripod of struts with a feed horn, angular faceted body wrapped in crinkled gold thermal foil, round instrument apertures, ribbed cylindrical RTG, long ribbed instrument boom",
+  "look": {
+    "body": "angular faceted body wrapped in crinkled gold thermal foil",
+    "antenna": "shallow dish antenna on a tripod of struts with a feed horn",
+    "instruments": "round instrument apertures, ribbed cylindrical instruments, long boom with a small instrument box",
+    "details": "ribbed cylindrical RTG, small flag emblem, small panels, thrusters"
+  },
+  "facts": {
+    "mass_kg": 478,
+    "power": "RTG, about 250 W at launch, about 200 W at Pluto",
+    "launch": "Jan. 19, 2006, Atlas V 551, Cape Canaveral LC-41",
+    "pluto_flyby": "July 14, 2015",
+    "arrokoth_flyby": "2019"
+  },
+  "sketch_sheets": ["top-down", "three-quarter", "side", "front", "side tilted diagonally", "straight-on front"],
+  "style_block": "pencil drawing, soft black and white graphite hatching",
+  "negative": "photo, photorealistic, 3d render, glossy, shiny, cgi, color, colorful, text, watermark, blurry, extra limbs",
+  "lora": {
+    "base_model": "sd_xl_base_1.0.safetensors",
+    "file": "new_horizon_craft_nh-000008.safetensors",
+    "available_checkpoints": ["new_horizon_craft_nh-000006.safetensors", "new_horizon_craft_nh-000008.safetensors", "new_horizon_craft_nh.safetensors"],
+    "strength": 1.0,
+    "status": "trained; epoch 8 at strength 1.0 is provisional, from the epoch 6 / epoch 8 / no-LoRA comparison in gallery/",
+    "dataset": "kaggle_runs/craft_nh_lora/dataset (6 images)",
+    "weights_location": "programming/colab_upload/comfyui_loras",
+    "alternative": "new_horizon_craft_sketch*.safetensors (earlier, softer sketch-style LoRA, same trigger word)"
+  },
+  "story": {
+    "summary": "Safes itself on July 4, 2015, nine days before the Pluto flyby, and is recovered by the operations team.",
+    "arc": null
+  },
+  "to_verify": [
+    "Final epoch and strength choice",
+    "Drop the 'white paper / reference sheet' ending in space scenes; it fights the background"
+  ]
+}

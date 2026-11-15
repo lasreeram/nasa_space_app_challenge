@@ -1,0 +1,36 @@
+{
+  "id": "panel_001",
+  "status": "generated on Kaggle (kernel complete); image not yet downloaded",
+  "beat": "The New Horizons spacecraft receives a software update by radio transmission, but it responds with a 'Locked' signal.",
+  "lettering_later": "Caption/signal text 'LOCKED' is added in layout code; the image model is not asked to render text.",
+  "characters": ["new_horizons_craft"],
+  "canon_files": ["canon/new_horizons_craft.json"],
+  "composition": {
+    "description": "Spacecraft on the right of the frame, moving; radio signal shown arriving from the left; black sky with stars.",
+    "width": 768,
+    "height": 1344
+  },
+  "prompt_parts": {
+    "style_lead": "pencil drawing of",
+    "canon_text": "new_horizon_craft, a space probe, shallow dish antenna on top on a tripod of struts with a feed horn, angular faceted body wrapped in crinkled gold thermal foil, round instrument apertures, ribbed cylindrical RTG, long ribbed instrument boom",
+    "panel_prompt": "positioned on the right of the frame and moving, receiving a radio signal shown as curved radio wave arcs and concentric rings travelling in from the left toward the dish antenna, black sky with stars in the background",
+    "style_block": "soft black and white graphite hatching"
+  },
+  "prompt": "pencil drawing of new_horizon_craft, a space probe, shallow dish antenna on top on a tripod of struts with a feed horn, angular faceted body wrapped in crinkled gold thermal foil, round instrument apertures, ribbed cylindrical RTG, long ribbed instrument boom, positioned on the right of the frame and moving, receiving a radio signal shown as curved radio wave arcs and concentric rings travelling in from the left toward the dish antenna, black sky with stars in the background, soft black and white graphite hatching",
+  "negative": "photo, photorealistic, 3d render, glossy, shiny, cgi, color, colorful, text, watermark, blurry, extra limbs",
+  "model": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "lora": "new_horizon_craft_nh-000008.safetensors",
+    "lora_strength": 1.0
+  },
+  "sampler": {
+    "name": "euler",
+    "scheduler": "normal",
+    "steps": 25,
+    "cfg": 7.0,
+    "denoise": 1.0
+  },
+  "seed": 2407189064,
+  "grayscale": true,
+  "kaggle_kernel": "sreeramla/panel-001-gen"
+}

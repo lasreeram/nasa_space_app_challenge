@@ -1,0 +1,39 @@
+{
+  "id": "panel_004",
+  "revision": 1,
+  "status": "queued on Kaggle (sreeramla/panel-004-gen)",
+  "beat": "Alan, the principal investigator, gets a phone call.",
+  "lettering_later": null,
+  "characters": ["alan_stern"],
+  "canon_files": ["canon/alan_stern.json"],
+  "notes": "First use of Alan's LoRA, untested. Compares epoch 8 (requested) and epoch 6 on the same two seeds, all at strength 0.8.",
+  "composition": {
+    "description": "Alan standing in three-quarter side view, talking on a mobile phone held to his ear.",
+    "width": 768,
+    "height": 1344
+  },
+  "prompt_parts": {
+    "style_lead": "hand-drawn pencil sketch of",
+    "canon_text": "alan_stern, a young man with short dark swept-back hair, wearing a V-neck sweater over a collared shirt and tie, trousers and shoes",
+    "panel_prompt": "full body, standing in a three-quarter side view talking on a mobile phone held to his ear, other hand in his trouser pocket, detailed face with defined eye, nose and ear",
+    "style_block": "soft black and white graphite on white paper"
+  },
+  "prompt": "hand-drawn pencil sketch of alan_stern, a young man with short dark swept-back hair, wearing a V-neck sweater over a collared shirt and tie, trousers and shoes, full body, standing in a three-quarter side view talking on a mobile phone held to his ear, other hand in his trouser pocket, detailed face with defined eye, nose and ear, soft black and white graphite on white paper",
+  "negative": "photo, photorealistic, 3d render, glossy, cgi, color, colorful, text, watermark, blurry, extra limbs, extra people, crowd",
+  "model": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "lora": "alan_stern-000008.safetensors",
+    "lora_strength": 0.8,
+    "loras_to_try": ["alan_stern-000008.safetensors", "alan_stern-000006.safetensors"]
+  },
+  "sampler": {
+    "name": "euler",
+    "scheduler": "normal",
+    "steps": 25,
+    "cfg": 7.0,
+    "denoise": 1.0
+  },
+  "seeds": [3860062891, 4057286150],
+  "grayscale": true,
+  "kaggle_kernel": "sreeramla/panel-004-gen"
+}

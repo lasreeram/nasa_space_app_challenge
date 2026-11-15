@@ -1,0 +1,64 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>DRAFT – Image Queue</title><link rel="stylesheet" href="style.css">
+<style>
+.col { padding: 22px; }
+.form { width: 420px; border-right: 1px solid var(--line); display: flex; flex-direction: column; }
+.row { display: flex; gap: 10px; }
+.row > * { flex: 1; }
+.prev { background: #0d1327; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font-size: 12px; line-height: 1.5; color: #cfd8f5; min-height: 84px; }
+.q { flex: 1; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.job { display: flex; gap: 14px; align-items: center; background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; }
+.job img { width: 84px; height: 84px; border-radius: 8px; object-fit: cover; background: #0d1327; flex: none; }
+.job .ph { width: 84px; height: 84px; border-radius: 8px; background: repeating-linear-gradient(45deg,#16203f,#16203f 10px,#1b2750 10px,#1b2750 20px); flex: none; display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:11px; }
+.job h5 { font-size: 14px; } .job small { color: var(--muted); font-size: 12px; display: block; margin: 3px 0 6px; }
+.bar { height: 6px; background: #0d1327; border-radius: 3px; width: 200px; } .bar i { display: block; height: 100%; border-radius: 3px; background: var(--accent); }
+.job .st { margin-left: auto; text-align: right; font-size: 12px; color: var(--muted); }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.grid img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; display: block; }
+</style></head>
+<body>
+<div class="draft-banner">DRAFT <small>PROPOSED APPLICATION &mdash; CONCEPT MOCKUP, NOT A WORKING PRODUCT</small> DRAFT</div>
+<div class="watermark"><span>DRAFT</span></div>
+<div class="app">
+  <aside class="side">
+    <div class="logo"><i></i>Story Studio</div>
+    <div class="tagline">Learn science by making a graphic novel</div>
+    <nav class="nav">
+      <a><b>💬</b>Team Chat<span class="badge">3</span></a>
+      <a><b>📖</b>Storyline</a>
+      <a><b>🧬</b>Character Canon</a>
+      <a class="on"><b>🖼️</b>Image Queue<span class="badge">2</span></a>
+      <a><b>🗂️</b>Gallery</a>
+    </nav>
+    <div class="who me"><span class="av" style="background:#6ea8ff">YO</span>You (Student)</div>
+  </aside>
+  <section class="main">
+    <div class="top"><h1>Image Queue</h1><span class="draft-tag">DRAFT</span><span class="sub">Schedule generation on the image model (online GPU)</span>
+      <div class="right"><span class="chip ok" style="margin:0">GPU: connected</span></div></div>
+    <div class="content">
+      <div class="col form">
+        <div class="card" style="flex:1">
+          <h3>Schedule a new image</h3>
+          <label class="f" style="margin-top:0">Storyline beat</label><div class="input">Beat 1 &mdash; Radio update, craft answers "LOCKED"</div>
+          <label class="f">Canon used</label><div><span class="chip ok">New Horizons craft</span><span class="chip">+ add</span></div>
+          <label class="f">Prompt (from Storyline)</label>
+          <div class="prev">pencil drawing, black sky with stars, craft on the right, radio signal arriving from the left, dish pointing at Earth&hellip;</div>
+          <div class="row"><div><label class="f">Size</label><div class="input">768 × 1344</div></div><div><label class="f">Variants</label><div class="input">4</div></div></div>
+          <div class="row"><div><label class="f">Run at</label><div class="input">Tonight 21:00</div></div><div><label class="f">Approval</label><div class="input">Teacher OK</div></div></div>
+          <div style="margin-top:18px;display:flex;gap:10px"><span class="btn amber">Schedule</span><span class="btn ghost">Run now</span></div>
+        </div>
+      </div>
+      <div class="col q">
+        <div class="card"><h3>Queue</h3>
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <div class="job"><div class="ph">generating</div><div><h5>Panel 1 &middot; Radio update</h5><small>Jo &middot; 4 variants &middot; craft canon</small><div class="bar"><i style="width:62%"></i></div></div><div class="st"><span class="chip blue">Running 62%</span></div></div>
+            <div class="job"><div class="ph">scheduled</div><div><h5>Panel 3 &middot; Alan studies telemetry</h5><small>Maya &middot; 4 variants &middot; Alan Stern canon</small></div><div class="st"><span class="chip warn">Tonight 21:00</span></div></div>
+            <div class="job"><img src="../panels/panel_003_lettered.png"><div><h5>Panel 2 &middot; Mission control</h5><small>Liam &middot; finished 17:42</small><span class="chip ok">Ready for review</span></div><div class="st"><span class="btn ghost">Review</span></div></div>
+          </div></div>
+        <div class="card"><h3>Latest results</h3>
+          <div class="grid"><img src="../gallery/story_epoch8.png"><img src="../gallery/style_epoch8.png"><img src="../gallery/specific_epoch8.png"></div></div>
+      </div>
+    </div>
+  </section>
+</div>
+</body></html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>DRAFT – Storyline</title><link rel="stylesheet" href="style.css">
+<style>
+.col { padding: 22px; overflow: hidden; }
+.beats { width: 470px; border-right: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px; }
+.beat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: flex; gap: 12px; }
+.beat.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.beat .n { width: 28px; height: 28px; border-radius: 50%; background: var(--panel2); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13px; flex: none; }
+.beat p { font-size: 13px; line-height: 1.4; }
+.beat small { color: var(--muted); font-size: 11px; display: block; margin-top: 5px; }
+.disc { flex: 1; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.cm { display: flex; gap: 10px; font-size: 13px; line-height: 1.4; }
+.cm b { display: block; font-size: 12px; color: var(--muted); font-weight: 500; }
+.prompt { background: #0d1327; border: 1px solid #34528f; border-radius: 10px; padding: 14px; font-family: "DejaVu Sans Mono", monospace; font-size: 12px; line-height: 1.7; color: #cfd8f5; }
+.prompt .t1 { color: var(--accent2); } .prompt .t2 { color: var(--ok); } .prompt .t3 { color: var(--accent); }
+.vote { margin-left: auto; font-size: 12px; color: var(--muted); }
+</style></head>
+<body>
+<div class="draft-banner">DRAFT <small>PROPOSED APPLICATION &mdash; CONCEPT MOCKUP, NOT A WORKING PRODUCT</small> DRAFT</div>
+<div class="watermark"><span>DRAFT</span></div>
+<div class="app">
+  <aside class="side">
+    <div class="logo"><i></i>Story Studio</div>
+    <div class="tagline">Learn science by making a graphic novel</div>
+    <nav class="nav">
+      <a><b>💬</b>Team Chat<span class="badge">3</span></a>
+      <a class="on"><b>📖</b>Storyline</a>
+      <a><b>🧬</b>Character Canon</a>
+      <a><b>🖼️</b>Image Queue<span class="badge">2</span></a>
+      <a><b>🗂️</b>Gallery</a>
+    </nav>
+    <div class="who me"><span class="av" style="background:#6ea8ff">YO</span>You (Student)</div>
+  </aside>
+  <section class="main">
+    <div class="top"><h1>Storyline</h1><span class="draft-tag">DRAFT</span><span class="sub">Discuss a beat, then add it to the AI prompt</span>
+      <div class="right"><span class="btn ghost">+ New beat</span><span class="btn amber">Send to Image Queue</span></div></div>
+    <div class="content">
+      <div class="col beats">
+        <div class="beat on"><span class="n">1</span><div><p>The spacecraft receives a software update by radio, but it answers with a <b>"LOCKED"</b> signal.</p><small>Canon: New Horizons craft &middot; 💬 6 comments &middot; <span style="color:var(--ok)">expert reviewed</span></small></div></div>
+        <div class="beat"><span class="n">2</span><div><p>In mission control, the big screen reads <b>"OUT OF LOCK"</b> and the engineers are alarmed.</p><small>Canon: none (crowd) &middot; 💬 4 comments</small></div></div>
+        <div class="beat"><span class="n">3</span><div><p>Alan Stern studies the telemetry and asks Alice for a plan.</p><small>Canon: Alan Stern, Alice Bowman &middot; 💬 2 comments</small></div></div>
+        <div class="beat"><span class="n">4</span><div><p>The team re-points the antenna and re-acquires the signal.</p><small>Draft &middot; no comments yet</small></div></div>
+      </div>
+      <div class="col disc">
+        <div class="card"><h3>Discussion &middot; Beat 1</h3>
+          <div class="cm"><span class="av" style="background:#8bc4ff">MA</span><div><b>Maya</b>The radio arrives from the left, the craft is on the right, with a black starry sky.</div><span class="vote">👍 3</span></div>
+          <div class="cm" style="margin-top:10px"><span class="av" style="background:#ffb454">DR</span><div><b>Dr. Rivera <span class="expert">EXPERT</span></b>Good. Show the dish pointed at Earth; the image model should not draw text, so we add "LOCKED" later.</div><span class="vote">👍 5</span></div>
+          <div style="margin-top:12px;display:flex;gap:8px"><span class="chip blue">+ Add to prompt: composition</span><span class="chip blue">+ Add to prompt: mood</span></div></div>
+        <div class="card" style="flex:1"><h3>AI prompt (built from the agreed discussion)</h3>
+          <div class="prompt"><span class="t1">style:</span> pencil drawing, hand-drawn hatching, black sky with stars<br>
+            <span class="t2">canon:</span> new_horizons_craft &mdash; spacecraft with dish antenna, gold foil body<br>
+            <span class="t3">composition:</span> craft on the right of frame, moving; radio signal arriving from the left; dish pointing back at Earth<br>
+            <span class="t1">mood:</span> quiet, tense<br>
+            <span class="t2">avoid:</span> readable text, extra spacecraft</div>
+          <div style="margin-top:12px;color:var(--muted);font-size:12px">Lettering ("LOCKED") is added later in layout, not by the image model.</div></div>
+      </div>
+    </div>
+  </section>
+</div>
+</body></html>

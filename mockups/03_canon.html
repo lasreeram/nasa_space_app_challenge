@@ -1,0 +1,65 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>DRAFT – Character Canon</title><link rel="stylesheet" href="style.css">
+<style>
+.col { padding: 22px; }
+.list { width: 360px; border-right: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px; }
+.drop { border: 2px dashed #34528f; border-radius: 12px; padding: 22px; text-align: center; color: var(--muted); font-size: 13px; background: #0d1327; }
+.drop b { color: var(--accent); font-size: 15px; display: block; margin-bottom: 4px; }
+.char { display: flex; gap: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 10px; align-items: center; }
+.char.on { border-color: var(--accent); }
+.char img { width: 56px; height: 56px; border-radius: 8px; object-fit: cover; background: #fff; }
+.char small { color: var(--muted); font-size: 12px; display: block; }
+.detail { flex: 1; display: flex; gap: 18px; min-width: 0; }
+.sheet { width: 340px; align-self: flex-start; }
+.sheet img { width: 100%; border-radius: 10px; background: #fff; display: block; }
+.kv { display: grid; grid-template-columns: 110px 1fr; gap: 8px 12px; font-size: 13px; line-height: 1.4; }
+.kv dt { color: var(--muted); }
+.canon-text { background: #0d1327; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font-size: 13px; line-height: 1.5; margin-top: 4px; }
+</style></head>
+<body>
+<div class="draft-banner">DRAFT <small>PROPOSED APPLICATION &mdash; CONCEPT MOCKUP, NOT A WORKING PRODUCT</small> DRAFT</div>
+<div class="watermark"><span>DRAFT</span></div>
+<div class="app">
+  <aside class="side">
+    <div class="logo"><i></i>Story Studio</div>
+    <div class="tagline">Learn science by making a graphic novel</div>
+    <nav class="nav">
+      <a><b>💬</b>Team Chat<span class="badge">3</span></a>
+      <a><b>📖</b>Storyline</a>
+      <a class="on"><b>🧬</b>Character Canon</a>
+      <a><b>🖼️</b>Image Queue<span class="badge">2</span></a>
+      <a><b>🗂️</b>Gallery</a>
+    </nav>
+    <div class="who me"><span class="av" style="background:#6ea8ff">YO</span>You (Student)</div>
+  </aside>
+  <section class="main">
+    <div class="top"><h1>Character Bible / Canon</h1><span class="draft-tag">DRAFT</span><span class="sub">Upload canon so every image keeps characters consistent</span>
+      <div class="right"><span class="btn ghost">Export</span><span class="btn">⬆ Upload canon</span></div></div>
+    <div class="content">
+      <div class="col list">
+        <div class="drop"><b>Drop canon files here</b>.json, .pdf, .md, or sketch sheets (.png / .jpg)</div>
+        <div class="char on"><img src="../sketches_alan/sketch_1_1024.png"><div><b>Alan Stern</b><small>Principal Investigator</small><span class="chip ok">LoRA ready</span></div></div>
+        <div class="char"><img src="../sketches_craft/sketch_1_1024.png"><div><b>New Horizons craft</b><small>Spacecraft</small><span class="chip ok">LoRA ready</span></div></div>
+        <div class="char"><img src="../mission_operatations_manager.jpeg"><div><b>Alice Bowman</b><small>Mission Operations Manager</small><span class="chip warn">Training…</span></div></div>
+      </div>
+      <div class="col detail">
+        <div class="sheet card"><h3>Sketch sheet</h3><img src="../sketches_alan/sketch_1_1024.png"><div style="margin-top:10px"><span class="chip">12 sketches</span><span class="chip">captioned</span></div></div>
+        <div style="flex:1;display:flex;flex-direction:column;gap:14px">
+          <div class="card"><h3>Alan Stern &middot; canon entry</h3>
+            <dl class="kv">
+              <dt>Trigger word</dt><dd><span class="chip blue">alan_stern</span></dd>
+              <dt>Role</dt><dd>Principal Investigator (PI)</dd>
+              <dt>Real person</dt><dd>Yes &mdash; <span class="chip warn">dramatised</span></dd>
+              <dt>Hair</dt><dd>Short dark swept-back hair, dense hatching</dd>
+              <dt>Clothing</dt><dd>V-neck sweater, collared shirt and tie</dd>
+              <dt>Avoid words</dt><dd><span class="chip">alan</span></dd>
+            </dl>
+            <label class="f">Canon text injected into the prompt</label>
+            <div class="canon-text">alan_stern, a young man with short dark swept-back hair, wearing a V-neck sweater over a collared shirt and tie, trousers and shoes</div></div>
+          <div class="card"><h3>Expert review</h3><div style="font-size:13px;line-height:1.5"><span class="av" style="background:#ffb454;width:24px;height:24px;font-size:10px">DR</span> Dr. Rivera: "Facts match NASA public sources. Keep the dramatised label visible to readers."</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</body></html>

@@ -1,0 +1,45 @@
+{
+  "id": "panel_001",
+  "revision": 2,
+  "status": "provisionally approved: seed 3189204417 at LoRA strength 1.0 (craft floats in space). Radio signal and 'LOCKED' caption still to be added in layout",
+  "approved": {"seed": 3189204417, "lora_strength": 1.0, "file": "seed3189204417_panel_00003_.png"},
+  "changes_from_r1": [
+    "r1 result (seed 2407189064): craft drawn landed on terrain on tripod legs, centred and filling the frame, no radio signal.",
+    "Craft is explicitly flying through empty deep space, small and on the right; negatives now block planet, ground, surface, horizon, craters, moon, landing legs (a craft training caption mentions 'small legs underneath', which can make it look landed).",
+    "Radio update shown as a dotted line of signal pulses plus concentric wave arcs striking the dish antenna, with sparks of light at the feed horn.",
+    "2 seeds (the r1 seed, to isolate the prompt change, and one new) x LoRA strength 1.0 and 0.7 = 4 images."
+  ],
+  "beat": "The New Horizons spacecraft receives a software update by radio transmission, but it responds with a 'Locked' signal.",
+  "lettering_later": "Caption/signal text 'LOCKED' is added in layout code; the image model is not asked to render text.",
+  "characters": ["new_horizons_craft"],
+  "canon_files": ["canon/new_horizons_craft.json"],
+  "composition": {
+    "description": "Spacecraft on the right of the frame, moving through empty space; radio signal arriving from the upper left; black sky with stars.",
+    "width": 768,
+    "height": 1344
+  },
+  "prompt_parts": {
+    "style_lead": "pencil drawing of",
+    "canon_text": "new_horizon_craft, a space probe, shallow dish antenna on top on a tripod of struts with a feed horn, angular faceted body wrapped in crinkled gold thermal foil, round instrument apertures, ribbed cylindrical RTG, long ribbed instrument boom",
+    "panel_prompt": "a small spacecraft drifting at an angle on the right of the frame, seen from a distance, flying through empty deep space with vast black emptiness around it, a dotted line of radio signal pulses and concentric curved radio wave arcs travelling in from the upper left across the black sky and striking the dish antenna, small sparks of light at the feed horn where the signal is received, black sky filled with stars",
+    "style_block": "soft black and white graphite hatching"
+  },
+  "prompt": "pencil drawing of new_horizon_craft, a space probe, shallow dish antenna on top on a tripod of struts with a feed horn, angular faceted body wrapped in crinkled gold thermal foil, round instrument apertures, ribbed cylindrical RTG, long ribbed instrument boom, a small spacecraft drifting at an angle on the right of the frame, seen from a distance, flying through empty deep space with vast black emptiness around it, a dotted line of radio signal pulses and concentric curved radio wave arcs travelling in from the upper left across the black sky and striking the dish antenna, small sparks of light at the feed horn where the signal is received, black sky filled with stars, soft black and white graphite hatching",
+  "negative": "photo, photorealistic, 3d render, glossy, shiny, cgi, color, colorful, text, watermark, blurry, extra limbs, planet, ground, surface, terrain, horizon, craters, moon, landing legs, landed, lander",
+  "model": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "lora": "new_horizon_craft_nh-000008.safetensors",
+    "lora_strength": 1.0,
+    "lora_strengths_to_try": [1.0, 0.7]
+  },
+  "sampler": {
+    "name": "euler",
+    "scheduler": "normal",
+    "steps": 25,
+    "cfg": 7.0,
+    "denoise": 1.0
+  },
+  "seeds": [2407189064, 3189204417],
+  "grayscale": true,
+  "kaggle_kernel": "sreeramla/panel-001-r2-gen"
+}

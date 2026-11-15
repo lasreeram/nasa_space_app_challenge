@@ -1,0 +1,39 @@
+{
+  "id": "alice_bowman",
+  "type": "character",
+  "display_name": "Alice Bowman",
+  "role": "Mission Operations Manager (MOM)",
+  "real_person": true,
+  "dramatised": true,
+  "trigger": "alice_bowman",
+  "avoid_words": ["alice"],
+  "trigger_notes": "Never plain 'alice': it is also the ultraviolet instrument on the spacecraft.",
+  "canon_text": "alice_bowman, the mission operations manager, a woman with a dark shoulder-length bob, centre parting, calm face, wearing a long-sleeve pullover with a buttoned collar, belt, straight trousers and flat shoes",
+  "look": {
+    "hair": "dark shoulder-length bob, centre parting",
+    "face": "calm; serious in close-ups",
+    "clothing": "long-sleeve pullover with a buttoned collar, belt, straight trousers, flat shoes",
+    "details": "round NASA logo patch on the chest and a small flag patch on the sleeve (standing sheet); branding is NASA, as drawn"
+  },
+  "sketch_sheets": ["standing (front)", "fists raised, cheering", "seated, legs crossed", "walking, side view", "face close-up (serious)"],
+  "style_block": "hand-drawn pencil sketch, soft black and white graphite on off-white paper",
+  "negative": "photo, photorealistic, 3d render, glossy, cgi, color, colorful, text, watermark, blurry, extra limbs",
+  "lora": {
+    "base_model": "sd_xl_base_1.0.safetensors",
+    "file": "alice_bowman.safetensors",
+    "available_checkpoints": ["alice_bowman-000001.safetensors", "alice_bowman-000002.safetensors", "alice_bowman-000003.safetensors", "alice_bowman-000004.safetensors", "alice_bowman-000005.safetensors", "alice_bowman-000006.safetensors", "alice_bowman-000007.safetensors", "alice_bowman-000008.safetensors", "alice_bowman-000009.safetensors", "alice_bowman.safetensors"],
+    "strength": null,
+    "status": "trained; checkpoint and strength not yet compared",
+    "dataset": "kaggle_runs/alice_lora/dataset (5 images)",
+    "weights_location": "programming/kaggle_runs/out_alice_lora/lora_out (not yet in colab_upload/comfyui_loras)"
+  },
+  "story": {
+    "summary": "Keeps the mission alive during the July 4, 2015 safing event, nine days before the Pluto flyby. The spacecraft went into safe mode after an over-assignment of commanded science operations and recovered within two days.",
+    "arc": "Recovering the Pluto flyby in 2015: the DSN (command uplink and tracking), LORRI (optical navigation of Pluto against the stars) and the Time Knowledge Update (TKU), plus the software reload."
+  },
+  "to_verify": [
+    "Exact order of the recovery steps",
+    "What the software reload contained",
+    "The TKU section referenced by the LORRI notes"
+  ]
+}

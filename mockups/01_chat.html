@@ -1,0 +1,79 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>DRAFT – Chat</title><link rel="stylesheet" href="style.css">
+<style>
+.chat { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.msgs { flex: 1; padding: 22px 28px; overflow: hidden; display: flex; flex-direction: column; gap: 16px; }
+.m { display: flex; gap: 12px; max-width: 760px; }
+.m.me { align-self: flex-end; flex-direction: row-reverse; }
+.bub { background: var(--panel2); border: 1px solid var(--line); border-radius: 14px; padding: 10px 14px; font-size: 14px; line-height: 1.45; }
+.m.me .bub { background: #1d3a73; border-color: #2c5bb0; }
+.nm { font-size: 12px; color: var(--muted); margin-bottom: 3px; }
+.share { margin-top: 8px; display: flex; gap: 10px; background: #0d1327; border: 1px solid var(--line); border-radius: 10px; padding: 8px; align-items: center; }
+.share img { width: 62px; height: 62px; object-fit: cover; border-radius: 6px; }
+.share div { font-size: 12px; color: var(--muted); }
+.share b { color: var(--text); display: block; font-size: 13px; }
+.composer { padding: 16px 28px; border-top: 1px solid var(--line); display: flex; gap: 10px; background: var(--panel); }
+.composer .input { flex: 1; }
+.rail { width: 300px; border-left: 1px solid var(--line); padding: 18px; background: var(--panel); display: flex; flex-direction: column; gap: 16px; }
+.mem { display: flex; align-items: center; gap: 9px; font-size: 13px; padding: 5px 0; }
+.mem small { color: var(--muted); display: block; font-size: 11px; }
+</style></head>
+<body>
+<div class="draft-banner">DRAFT <small>PROPOSED APPLICATION &mdash; CONCEPT MOCKUP, NOT A WORKING PRODUCT</small> DRAFT</div>
+<div class="watermark"><span>DRAFT</span></div>
+<div class="app">
+  <aside class="side">
+    <div class="logo"><i></i>Story Studio</div>
+    <div class="tagline">Learn science by making a graphic novel</div>
+    <nav class="nav">
+      <a class="on"><b>💬</b>Team Chat<span class="badge">3</span></a>
+      <a><b>📖</b>Storyline</a>
+      <a><b>🧬</b>Character Canon</a>
+      <a><b>🖼️</b>Image Queue<span class="badge">2</span></a>
+      <a><b>🗂️</b>Gallery</a>
+    </nav>
+    <h4>FRIENDS</h4>
+    <div class="who"><span class="av" style="background:#8bc4ff">MA</span>Maya<span class="dot" style="margin-left:auto"></span></div>
+    <div class="who"><span class="av" style="background:#ffd28b">JO</span>Jo<span class="dot" style="margin-left:auto"></span></div>
+    <div class="who"><span class="av" style="background:#c9a7ff">LI</span>Liam<span class="dot off" style="margin-left:auto"></span></div>
+    <h4>EXPERTS</h4>
+    <div class="who"><span class="av" style="background:#ffb454">DR</span>Dr. Rivera<span class="dot" style="margin-left:auto"></span></div>
+    <div class="who"><span class="av" style="background:#ffb454">PK</span>Prof. Kim<span class="dot off" style="margin-left:auto"></span></div>
+    <div class="who me"><span class="av" style="background:#6ea8ff">YO</span>You (Student)</div>
+  </aside>
+
+  <section class="main">
+    <div class="top">
+      <h1># new-horizons-novel</h1><span class="draft-tag">DRAFT</span>
+      <span class="sub">5 members &middot; 2 experts online</span>
+      <div class="right"><span class="btn ghost">Invite</span><span class="btn ghost">Ask an expert</span></div>
+    </div>
+    <div class="content">
+      <div class="chat">
+        <div class="msgs">
+          <div class="m"><span class="av" style="background:#8bc4ff">MA</span><div><div class="nm">Maya &middot; 10:02</div><div class="bub">Panel 1: how does the spacecraft get a software update from Earth? Is it really by radio?</div></div></div>
+          <div class="m"><span class="av" style="background:#ffb454">DR</span><div><div class="nm">Dr. Rivera <span class="expert">EXPERT</span> &middot; 10:04</div><div class="bub">Yes! Commands travel as radio waves through NASA's Deep Space Network. At Pluto the signal takes about 4.5 hours each way, so the craft can't answer right away.</div></div></div>
+          <div class="m me"><span class="av" style="background:#6ea8ff">YO</span><div><div class="nm" style="text-align:right">You &middot; 10:07</div><div class="bub">That's a great story beat: the craft replies "LOCKED" and the team waits hours. Adding it to the storyline.
+            <div class="share"><img src="../gallery/story_epoch8.png"><div><b>Added to Storyline &rarr; Beat 1</b>Radio signal arrives, craft responds "LOCKED"</div></div></div></div></div>
+          <div class="m"><span class="av" style="background:#ffd28b">JO</span><div><div class="nm">Jo &middot; 10:09</div><div class="bub">Can we schedule an image for it tonight? I'll use the craft canon so it looks the same as before.</div></div></div>
+          <div class="m"><span class="av" style="background:#ffb454">PK</span><div><div class="nm">Prof. Kim <span class="expert">EXPERT</span> &middot; 10:12</div><div class="bub">Tip: show the antenna pointing back at Earth. It is how the craft hears you. I can review the draft panel tomorrow.</div></div></div>
+        </div>
+        <div class="composer"><span class="input" style="flex:1;color:var(--muted)">Message #new-horizons-novel&hellip;  (type @ to mention an expert)</span><span class="btn ghost">📎</span><span class="btn">Send</span></div>
+      </div>
+      <aside class="rail">
+        <div class="card"><h3>Project</h3>
+          <div style="font-size:15px;font-weight:700">New Horizons: Mission to Pluto</div>
+          <div style="color:var(--muted);font-size:12px;margin:6px 0 10px">Class project &middot; Grade 8 Science</div>
+          <span class="chip ok">3 canon files</span><span class="chip blue">6 beats</span><span class="chip warn">2 queued</span></div>
+        <div class="card"><h3>Learning goals</h3>
+          <div class="mem">✅ Radio signal delay</div>
+          <div class="mem">⬜ Gravity assists</div>
+          <div class="mem">⬜ Pluto's atmosphere</div></div>
+        <div class="card"><h3>Experts</h3>
+          <div class="mem"><span class="av" style="background:#ffb454">DR</span><div>Dr. Rivera<small>Mission operations</small></div></div>
+          <div class="mem"><span class="av" style="background:#ffb454">PK</span><div>Prof. Kim<small>Planetary science</small></div></div></div>
+      </aside>
+    </div>
+  </section>
+</div>
+</body></html>

@@ -1,0 +1,38 @@
+{
+  "id": "panel_003",
+  "revision": 1,
+  "status": "approved by user: panel_003_lettered.png ('OUT OF LOCK' on all 24 screens, seed 368596646)",
+  "beat": "In a mission control center with several engineers, the big screen shows an 'OUT OF LOCK' message and the people are alarmed.",
+  "lettering_later": "The 'OUT OF LOCK' text on the big screen is added in layout code; the image model is not asked to render text.",
+  "characters": [],
+  "canon_files": [],
+  "notes": "Crowd of engineers as silhouettes only, so no character LoRA is used. Style comes from the style block alone; it may not match the LoRA-trained panels exactly.",
+  "composition": {
+    "description": "Camera behind or to the side of the people; everyone faces the big screen; people sit in a gallery.",
+    "width": 1344,
+    "height": 768
+  },
+  "prompt_parts": {
+    "style_lead": "hand-drawn pencil sketch of",
+    "canon_text": null,
+    "panel_prompt": "a mission control center seen from behind, rows of engineers shown as dark silhouettes sitting in a gallery, all facing a huge glowing screen on the front wall, the people look alarmed with hands raised to their heads and leaning forward, rows of consoles and monitors",
+    "style_block": "soft black and white graphite hatching on off-white paper"
+  },
+  "prompt": "hand-drawn pencil sketch of a mission control center seen from behind, rows of engineers shown as dark silhouettes sitting in a gallery, all facing a huge glowing screen on the front wall, the people look alarmed with hands raised to their heads and leaning forward, rows of consoles and monitors, soft black and white graphite hatching on off-white paper",
+  "negative": "photo, photorealistic, 3d render, glossy, cgi, color, colorful, text, watermark, blurry, extra limbs, detailed faces, portrait, close-up",
+  "model": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "lora": null,
+    "lora_strength": 0
+  },
+  "sampler": {
+    "name": "euler",
+    "scheduler": "normal",
+    "steps": 25,
+    "cfg": 7.0,
+    "denoise": 1.0
+  },
+  "seeds": [368596646, 3960657220],
+  "grayscale": true,
+  "kaggle_kernel": "sreeramla/panel-003-gen"
+}

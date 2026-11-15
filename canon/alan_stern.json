@@ -1,0 +1,38 @@
+{
+  "id": "alan_stern",
+  "type": "character",
+  "display_name": "Alan Stern",
+  "role": "Principal Investigator (PI)",
+  "real_person": true,
+  "dramatised": true,
+  "trigger": "alan_stern",
+  "avoid_words": ["alan"],
+  "trigger_notes": "Unique trigger, like alice_bowman, so the base model's idea of a common first name doesn't leak in. Captions were rewritten from 'alan' to 'alan_stern' for training.",
+  "canon_text": "alan_stern, a young man with short dark swept-back hair, wearing a V-neck sweater over a collared shirt and tie, trousers and shoes",
+  "look": {
+    "hair": "short dark swept-back hair, drawn as dense hatching",
+    "face": "defined eyes, nose and ears; neutral to gentle smile",
+    "clothing": "V-neck sweater over a collared shirt and tie, trousers, shoes; suit jacket in head-and-shoulders portraits",
+    "details": null
+  },
+  "sketch_sheets": ["head and shoulders portrait, front", "head and shoulders, side profile", "walking, side view", "jumping with joy, fists raised", "seated, hands on knees", "standing, on a mobile phone", "standing, arms at sides"],
+  "style_block": "hand-drawn pencil sketch, black and white graphite on white paper",
+  "negative": "photo, photorealistic, 3d render, glossy, cgi, color, colorful, text, watermark, blurry, extra limbs",
+  "lora": {
+    "base_model": "sd_xl_base_1.0.safetensors",
+    "file": null,
+    "available_checkpoints": ["alan_stern-000001.safetensors", "alan_stern-000002.safetensors", "alan_stern-000003.safetensors", "alan_stern-000004.safetensors", "alan_stern-000005.safetensors", "alan_stern-000006.safetensors", "alan_stern-000007.safetensors", "alan_stern-000008.safetensors", "alan_stern-000009.safetensors"],
+    "strength": null,
+    "status": "trained (sreeramla/alan-lora-train, 10 epochs); epochs 1-9 downloaded, final alan_stern.safetensors not yet downloaded; checkpoint and strength not yet compared",
+    "dataset": "kaggle_runs/alan_lora/dataset (8 images)",
+    "weights_location": "programming/kaggle_runs/out_alan_lora/lora_out (after kaggle kernels output)"
+  },
+  "story": {
+    "summary": "Led the mission and fought to get it funded after it was left out of NASA's 2003 budget.",
+    "arc": "The 2001-2003 funding fight is backstory for Alan only."
+  },
+  "to_verify": [
+    "Final look (the captions say 'a young man'; confirm against the intended age)",
+    "Best epoch checkpoint and strength once training finishes"
+  ]
+}
